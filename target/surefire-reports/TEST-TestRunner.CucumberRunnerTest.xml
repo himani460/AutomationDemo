@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="43" failures="0" name="TestRunner.CucumberRunnerTest" time="34.796" errors="0" skipped="0">
+<testsuite tests="44" failures="2" name="TestRunner.CucumberRunnerTest" time="2.985" errors="0" skipped="38">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.302-1\jre\bin"/>
@@ -20,7 +20,7 @@
     <property name="basedir" value="C:\Users\himani.sengar\Documents\AutomationDemo"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.302-1\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="surefire.real.class.path" value="C:\Users\himani.sengar\Documents\AutomationDemo\target\surefire\surefirebooter6628391837287618367.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\himani.sengar\Documents\AutomationDemo\target\surefire\surefirebooter4320588575137624416.jar"/>
     <property name="java.io.tmpdir" value="C:\Users\HIMANI~1.SEN\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
@@ -44,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.302-1\jre"/>
-    <property name="sun.java.command" value="C:\Users\himani.sengar\Documents\AutomationDemo\target\surefire\surefirebooter6628391837287618367.jar C:\Users\himani.sengar\Documents\AutomationDemo\target\surefire\surefire2897909892841774392tmp C:\Users\himani.sengar\Documents\AutomationDemo\target\surefire\surefire3064081721083226095tmp"/>
+    <property name="sun.java.command" value="C:\Users\himani.sengar\Documents\AutomationDemo\target\surefire\surefirebooter4320588575137624416.jar C:\Users\himani.sengar\Documents\AutomationDemo\target\surefire\surefire4773980937026743886tmp C:\Users\himani.sengar\Documents\AutomationDemo\target\surefire\surefire103141273895256543tmp"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -66,43 +66,164 @@
   <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="Given user launches browser in chrome" time="0"/>
   <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user enters url as &quot;#ApplicationURL&quot;" time="0"/>
   <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user maximize the window" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user enters text &quot;#UserName&quot; in the textbox with attribute &quot;id&quot; and value &quot;userName&quot;" time="0.013"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user enters text &quot;#Password&quot; in the textbox with attribute &quot;id&quot; and value &quot;password&quot;" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with value &quot;logMeInButton&quot;" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with value &quot;inventory_button&quot;" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with value &quot;inside_retailed_inventory&quot;" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user switch to frame with value &quot;tab_0_iframe&quot;" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with select &quot;th&quot; and attribute &quot;class&quot; and value &quot;dgrid-cell dgrid-cell-padding dgrid-column-inventoryTable_col_wntyEndDate field-wntyEndDate dgrid-sortable&quot;" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with select &quot;th&quot; and attribute &quot;class&quot; and value &quot;dgrid-cell dgrid-cell-padding dgrid-column-inventoryTable_col_wntyEndDate field-wntyEndDate dgrid-sortable&quot;" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user input the model number" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user apply the wait of 20" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with select &quot;div&quot; and attribute &quot;class&quot; and value &quot; ui-state-default dgrid-row dgrid-row-even dgrid-selected ui-state-active&quot;" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with value &quot;_summaryTable_button_createClaimButton_label&quot;" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user switch to default window" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user switch to frame with value &quot;tab_1_iframe&quot;" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user enters text &quot;#DieselHour&quot; in the textbox with attribute &quot;id&quot; and value &quot;hoursInService&quot;" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user enters text &quot;#ElectricHour&quot; in the textbox with attribute &quot;id&quot; and value &quot;electricHours&quot;" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user enters text &quot;#WorkOrderNumber&quot; in the textbox with attribute &quot;id&quot; and value &quot;workOrderNumber&quot;" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with value &quot;widget_dateOfFailure&quot;" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user select the previous date" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with value &quot;widget_dateOfRepair&quot;" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user select the previous date" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with value &quot;form_0&quot;" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user scroll to the element with value &quot;casualPartNumberLabel&quot;" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user enters text &quot;#CasualPartNumber&quot; in the textbox with attribute &quot;id&quot; and value &quot;causalPart&quot;" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with value &quot;casualPartNumberLabel&quot;" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with value &quot;launchFaultCodeTree&quot;" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user select the radio button value with &quot;dijit_form_RadioButton_0&quot;" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with value &quot;addFaultCode&quot;" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user enters text &quot;#FaultFound&quot; in the textbox with attribute &quot;id&quot; and value &quot;faultFound&quot;" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with value &quot;casualPartNumberLabel&quot;" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user scroll to the element with value &quot;widget_technicianId&quot;" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user clear the textbox with value &quot;technicianId&quot;" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user enters text &quot;#TechnicianName&quot; in the textbox with attribute &quot;id&quot; and value &quot;technicianId&quot;" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with attribute &quot;class&quot; and value &quot;dijitReset dijitInputField dijitArrowButtonInner&quot; and index 5" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user enters textarea &quot;#ConditionFound&quot; in the textbox with attribute &quot;id&quot; and value &quot;condition_found&quot;" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user enters textarea &quot;#WorkPerformed&quot; in the textbox with attribute &quot;id&quot; and value &quot;work_performed&quot;" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with value &quot;validateButton&quot;" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with value &quot;submitButton&quot;" time="0"/>
-  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="Scenario: Check that main elements on Google Homepage are displayed" time="0"/>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user enters text &quot;#UserName&quot; in the textbox with attribute &quot;id&quot; and value &quot;userName&quot;" time="0.001">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;userName&apos;]&quot;}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;3070-TI12058&apos;, ip: &apos;10.131.150.74&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_302&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\HIMANI~1.SEN\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50011}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ffc5a6cb1752e7ffbd37382f9bff79a9
+*** Element info: {Using=xpath, value=//input[@id=&apos;userName&apos;]}" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;userName&apos;]&quot;}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;3070-TI12058&apos;, ip: &apos;10.131.150.74&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_302&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\HIMANI~1.SEN\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50011}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ffc5a6cb1752e7ffbd37382f9bff79a9
+*** Element info: {Using=xpath, value=//input[@id=&apos;userName&apos;]}
+	at junit.framework.Assert.fail(Assert.java:57)
+	at StepsDefination.TavantLoginPage.user_enters_text_in_the_textbox_with_attribute_and_value(TavantLoginPage.java:171)
+	at ✽.And user enters text &quot;#UserName&quot; in the textbox with attribute &quot;id&quot; and value &quot;userName&quot;(src/test/resources/Feature/TavantLogin.feature:11)
+</failure>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="Scenario: Check that main elements on Google Homepage are displayed" time="0.001">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;userName&apos;]&quot;}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;3070-TI12058&apos;, ip: &apos;10.131.150.74&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_302&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\HIMANI~1.SEN\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50011}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ffc5a6cb1752e7ffbd37382f9bff79a9
+*** Element info: {Using=xpath, value=//input[@id=&apos;userName&apos;]}" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;userName&apos;]&quot;}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;3070-TI12058&apos;, ip: &apos;10.131.150.74&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_302&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\HIMANI~1.SEN\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50011}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ffc5a6cb1752e7ffbd37382f9bff79a9
+*** Element info: {Using=xpath, value=//input[@id=&apos;userName&apos;]}
+	at junit.framework.Assert.fail(Assert.java:57)
+	at StepsDefination.TavantLoginPage.user_enters_text_in_the_textbox_with_attribute_and_value(TavantLoginPage.java:171)
+	at ✽.And user enters text &quot;#UserName&quot; in the textbox with attribute &quot;id&quot; and value &quot;userName&quot;(src/test/resources/Feature/TavantLogin.feature:11)
+</failure>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user enters text &quot;#Password&quot; in the textbox with attribute &quot;id&quot; and value &quot;password&quot;" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with value &quot;logMeInButton&quot;" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with value &quot;inventory_button&quot;" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with value &quot;inside_retailed_inventory&quot;" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user switch to frame with value &quot;tab_0_iframe&quot;" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with select &quot;th&quot; and attribute &quot;class&quot; and value &quot;dgrid-cell dgrid-cell-padding dgrid-column-inventoryTable_col_wntyEndDate field-wntyEndDate dgrid-sortable&quot;" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with select &quot;th&quot; and attribute &quot;class&quot; and value &quot;dgrid-cell dgrid-cell-padding dgrid-column-inventoryTable_col_wntyEndDate field-wntyEndDate dgrid-sortable&quot;" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user input the model number" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user apply the wait of 20" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with select &quot;div&quot; and attribute &quot;class&quot; and value &quot; ui-state-default dgrid-row dgrid-row-even dgrid-selected ui-state-active&quot;" time="0.006">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with value &quot;_summaryTable_button_createClaimButton_label&quot;" time="0.006">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user switch to default window" time="0.006">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user switch to frame with value &quot;tab_1_iframe&quot;" time="0.007">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user enters text &quot;#DieselHour&quot; in the textbox with attribute &quot;id&quot; and value &quot;hoursInService&quot;" time="0.007">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user enters text &quot;#ElectricHour&quot; in the textbox with attribute &quot;id&quot; and value &quot;electricHours&quot;" time="0.007">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user enters text &quot;#WorkOrderNumber&quot; in the textbox with attribute &quot;id&quot; and value &quot;workOrderNumber&quot;" time="0.008">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with value &quot;widget_dateOfFailure&quot;" time="0.008">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user select the previous date" time="0.008">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with value &quot;widget_dateOfRepair&quot;" time="0.008">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user select the previous date" time="0.009">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with value &quot;form_0&quot;" time="0.009">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user scroll to the element with value &quot;casualPartNumberLabel&quot;" time="0.009">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user enters text &quot;#CasualPartNumber&quot; in the textbox with attribute &quot;id&quot; and value &quot;causalPart&quot;" time="0.009">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with value &quot;casualPartNumberLabel&quot;" time="0.01">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with value &quot;launchFaultCodeTree&quot;" time="0.01">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user select the radio button value with &quot;dijit_form_RadioButton_0&quot;" time="0.01">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with value &quot;addFaultCode&quot;" time="0.01">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user enters text &quot;#FaultFound&quot; in the textbox with attribute &quot;id&quot; and value &quot;faultFound&quot;" time="0.011">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with value &quot;casualPartNumberLabel&quot;" time="0.012">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user scroll to the element with value &quot;widget_technicianId&quot;" time="0.012">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user clear the textbox with value &quot;technicianId&quot;" time="0.013">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user enters text &quot;#TechnicianName&quot; in the textbox with attribute &quot;id&quot; and value &quot;technicianId&quot;" time="0.013">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with attribute &quot;class&quot; and value &quot;dijitReset dijitInputField dijitArrowButtonInner&quot; and index 5" time="0.014">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user enters textarea &quot;#ConditionFound&quot; in the textbox with attribute &quot;id&quot; and value &quot;condition_found&quot;" time="0.014">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user enters textarea &quot;#WorkPerformed&quot; in the textbox with attribute &quot;id&quot; and value &quot;work_performed&quot;" time="0.014">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with value &quot;validateButton&quot;" time="0.015">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user click element with value &quot;submitButton&quot;" time="0.015">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check that main elements on Google Homepage are displayed" name="And user verify the text with value &quot;Machine&quot;" time="0.015">
+    <skipped/>
+  </testcase>
 </testsuite>
