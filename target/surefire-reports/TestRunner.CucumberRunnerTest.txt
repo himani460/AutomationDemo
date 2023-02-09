@@ -1,30 +1,30 @@
 -------------------------------------------------------------------------------
 Test set: TestRunner.CucumberRunnerTest
 -------------------------------------------------------------------------------
-Tests run: 44, Failures: 2, Errors: 0, Skipped: 38, Time elapsed: 2.985 sec <<< FAILURE!
-And user enters text "#UserName" in the textbox with attribute "id" and value "userName"(Scenario: Check that main elements on Google Homepage are displayed)  Time elapsed: 0.001 sec  <<< FAILURE!
+Tests run: 44, Failures: 2, Errors: 0, Skipped: 38, Time elapsed: 2.98 sec <<< FAILURE!
+And user enters text "#UserName" in the textbox with attribute "id" and value "userName"(Scenario: Check that main elements on Google Homepage are displayed)  Time elapsed: 0.002 sec  <<< FAILURE!
 junit.framework.AssertionFailedError: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='userName']"}
   (Session info: chrome=109.0.5414.120)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: '3070-TI12058', ip: '10.131.150.74', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_302'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\HIMANI~1.SEN\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50011}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ffc5a6cb1752e7ffbd37382f9bff79a9
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\HIMANI~1.SEN\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4abb59472e5727e01cf15aec74d3a6a6
 *** Element info: {Using=xpath, value=//input[@id='userName']}
 	at junit.framework.Assert.fail(Assert.java:57)
 	at StepsDefination.TavantLoginPage.user_enters_text_in_the_textbox_with_attribute_and_value(TavantLoginPage.java:171)
 	at ?.And user enters text "#UserName" in the textbox with attribute "id" and value "userName"(src/test/resources/Feature/TavantLogin.feature:11)
 
-Scenario: Check that main elements on Google Homepage are displayed  Time elapsed: 0.001 sec  <<< FAILURE!
+Scenario: Check that main elements on Google Homepage are displayed  Time elapsed: 0.002 sec  <<< FAILURE!
 junit.framework.AssertionFailedError: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='userName']"}
   (Session info: chrome=109.0.5414.120)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: '3070-TI12058', ip: '10.131.150.74', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_302'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\HIMANI~1.SEN\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50011}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ffc5a6cb1752e7ffbd37382f9bff79a9
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\HIMANI~1.SEN\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4abb59472e5727e01cf15aec74d3a6a6
 *** Element info: {Using=xpath, value=//input[@id='userName']}
 	at junit.framework.Assert.fail(Assert.java:57)
 	at StepsDefination.TavantLoginPage.user_enters_text_in_the_textbox_with_attribute_and_value(TavantLoginPage.java:171)
